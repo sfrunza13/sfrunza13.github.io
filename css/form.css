@@ -27,3 +27,12 @@ Worked on by Stefan Frunza sfrunza@myseneca.ca 021650148 and only me!
 #PhotographerEmail {
   width: 65%;
 }
+
+#Photo {
+  width: 45%;
+  min-width: 179px;
+}
+
+#LicenseList {
+  width: 65%;
+}
