@@ -1,0 +1,29 @@
+/**
+Worked on by Stefan Frunza sfrunza@myseneca.ca 021650148 and only me!
+ * Styles for the add-observation.html page 
+ */
+
+.required:after {
+  content: " *";
+  color: red;
+}
+
+.error {
+  color: red;
+}
+
+#Description {
+  width: 65%;
+}
+
+#Notes {
+  width: 68%;
+}
+
+#PhotographerName {
+  width: 65%;
+}
+
+#PhotographerEmail {
+  width: 65%;
+}
