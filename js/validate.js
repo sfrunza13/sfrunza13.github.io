@@ -24,22 +24,18 @@ function validate(event) {
   } else if (lat < -90 || lat > 90 || isNaN(lat)) {
     document.getElementById("latspan").hidden = "false";
     document.getElementById("longspan").hidden = "true";
-    //document.getElementById("longspan").style.display = "none";
     document.getElementById("latspan").style.display = "inline";
     event.preventDefault();
     return false;
   } else if (long < -180 || long > 180 || isNaN(long)) {
     document.getElementById("longspan").hidden = "false";
     document.getElementById("latspan").hidden = "true";
-    //document.getElementById("latspan").style.display = "none";
     document.getElementById("longspan").style.display = "inline";
     event.preventDefault();
     return false;
   } else {
     document.getElementById("latspan").hidden = "true";
-    //document.getElementById("latspan").style.display = "none";
     document.getElementById("longspan").hidden = "true";
-    //document.getElementById("longspan").style.display = "none";
     return true;
   }
 }
